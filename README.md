@@ -15,29 +15,28 @@
 
 ## Quickstart instructions
 
-Change into the `quickstart` directory
+1. Change into the `quickstart` directory
 
-Copy the example config file in `src/main/resources`, and place your `Square Access Token` inside of the new file.
+1. Copy the example config file in `src/main/resources`, and place your `Square Access Token` inside of the new file.
 
-```
-$ cp src/main/resources/config.properties.example src/main/resources/config.properties
-```
+    ```
+    $ cp src/main/resources/config.properties.example src/main/resources/config.properties
+    ```
 
-Replace `PLACE_VERSION_HERE` with the latest SDK version from [here](https://developer.squareup.com/docs/sdks/java)
+1. Replace `PLACE_VERSION_HERE` with the latest SDK version from [here](https://developer.squareup.com/docs/sdks/java)
 
-Compile the program
-```
-$ mvn package -DskipTests
-```
+1. Compile the program
+    ```
+    $ mvn package -DskipTests
+    ```
 
-Execute the code
-```
-$ mvn exec:java -Dexec.mainClass="com.square.examples.Quickstart"
-```
+1. Execute the code
+    ```
+    $ mvn exec:java -Dexec.mainClass="com.square.examples.Quickstart"
+    ```
 
-In your console, you should see output similar to this:
-
-```
-Location(s) for this account:
-LGJ1WWJ8PSV8Z: Default Test Account, 1600 Pennsylvania Ave NW, Washington
-```
+1. In your console, you should see output similar to this:
+    ```
+    Location(s) for this account:
+    LGJ1WWJ8PSV8Z: Default Test Account, 1600 Pennsylvania Ave NW, Washington
+    ```
