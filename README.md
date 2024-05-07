@@ -9,6 +9,9 @@
 
 [Java Quickstart guide](https://developer.squareup.com/docs/sdks/java/quick-start) - The quickstart directory is based off of this document.
 
+[Maven Repository for Square](https://mvnrepository.com/artifact/com.squareup/square) - Where the package files are hosted
+
+[Java SDK Source Code](https://github.com/square/square-java-sdk) - Github repo with sdk source code
 
 ## Quickstart instructions
 
@@ -20,6 +23,8 @@ Copy the example config file in `src/main/resources`, and place your `Square Acc
 $ cp src/main/resources/config.properties.example src/main/resources/config.properties
 ```
 
+Replace `PLACE_VERSION_HERE` with the latest SDK version from [here](https://developer.squareup.com/docs/sdks/java)
+
 Compile the program
 ```
 $ mvn package -DskipTests
@@ -30,4 +35,9 @@ Execute the code
 $ mvn exec:java -Dexec.mainClass="com.square.examples.Quickstart"
 ```
 
-You should see your `Square Sandbox Seller account's` location logged in the console.
+In your console, you should see output similar to this:
+
+```
+Location(s) for this account:
+LGJ1WWJ8PSV8Z: Default Test Account, 1600 Pennsylvania Ave NW, Washington
+```

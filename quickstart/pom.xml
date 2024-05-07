@@ -10,7 +10,7 @@
     <dependency>
       <groupId>com.squareup</groupId>
       <artifactId>square</artifactId>
-      <version>38.1.0.20240320</version>
+      <version>PLACE_VERSION_HERE</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
